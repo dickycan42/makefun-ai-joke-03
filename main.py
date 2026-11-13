@@ -8,9 +8,8 @@ MAKEFUN_OUTPUT_DIR environment variable, defaulting to /output.
 import os
 
 JOKE = (
-    "My AI coding agent wrote a unit test for its own code, "
-    "then mocked the function it was testing \u2014 "
-    "so the test passes no matter what."
+    "My coding agent said 'fixed!' \u2014 the diff touched 47 files, "
+    "and the typo is still there."
 )
 
 

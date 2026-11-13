@@ -1,4 +1,4 @@
-# AI Joke 03 — The Self-Testing Agent
+# AI Joke 03 — The Forty-Seven-File Fix
 
 `main.py` writes a single original one-line joke about an AI coding agent
 to `entry.txt` inside an output directory.
