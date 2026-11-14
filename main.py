@@ -15,8 +15,8 @@ FILENAME = "entry.txt"
 def write_joke(directory):
     os.makedirs(directory, exist_ok=True)
     target = os.path.join(directory, FILENAME)
-    with open(target, "w", encoding="utf-8") as handle:
-        handle.write(JOKE)
+    with open(target, "wb") as handle:
+        handle.write(JOKE.encode("utf-8"))
 
 
 def main():
